@@ -1,0 +1,40 @@
+.contact-form_wrapper {
+  margin: 50px 0;
+}
+
+.add-contact_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.add-contact_controls-wrapper {
+  display: flex;
+}
+
+.cancel_btn {
+  margin-right: 15px;
+}
+
+.first-name_input,
+.last-name_input,
+.phone_input,
+.email_input,
+.address_input {
+  color: white;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.add-contact_form-input {
+  height: 60px;
+  width: 550px;
+  border: none;
+  border-radius: 3px;
+}
+
+.add-contact_form-input::placeholder {
+  padding-left: 20px;
+  font-size: 20px;
+}

@@ -1,0 +1,11 @@
+<div class="dashboard-wrapper">
+  <div class="dashboard-header">
+    <app-header title="{{ title }}"></app-header>
+    <app-button
+      class="add-contact_btn"
+      label="{{ addContactButtonLabel }}"
+      type="{{ 'add' }}"
+      (clickEvent)="directToAddContact()"
+    ></app-button>
+  </div>
+</div>
