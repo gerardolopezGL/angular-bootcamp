@@ -1,0 +1,54 @@
+.contact-card_wrapper {
+  width: 280px;
+  height: 130px;
+  border-radius: 2px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contact-card_user {
+  background: #2b745e;
+  display: flex;
+  padding: 12px;
+  border-radius: 2px 0 0 2px;
+}
+
+.contact-card_user-icon {
+  color: white;
+}
+
+.contact-card_profile {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 10px 10px 10px 5px;
+}
+
+.contact-card_profile-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contact-card_id {
+  color: #3fa585;
+  font-weight: bold;
+}
+
+.contact-card_name {
+}
+
+.contact-card_delete-btn {
+  color: #de9e9f;
+}
+
+.fa-trash-alt {
+  margin-right: 5px;
+}
+
+.fa-arrow-alt-circle-right {
+  color: #186c8b;
+}

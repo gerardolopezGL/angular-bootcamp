@@ -9,7 +9,6 @@
   padding: 0.5rem 1rem;
   margin: 0;
   text-decoration: none;
-  background: #186c8b;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
@@ -20,9 +19,22 @@
   -moz-appearance: none;
 }
 
-.button:hover,
-.button:focus {
+.btn-background_primary {
+  background: #186c8b;
+}
+
+.btn-background_secondary {
+  background: #838383;
+}
+
+.btn-background_primary:hover,
+.btn-background_primary:focus {
   background: rgba(24, 108, 139, 0.5);
+}
+
+.btn-background_secondary:hover,
+.btn-background_secondary:focus {
+  background: rgba(94, 94, 94, 0.5);
 }
 
 .button:focus {
